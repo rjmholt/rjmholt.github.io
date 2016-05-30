@@ -1,0 +1,52 @@
+.codeBlock {
+  background: #23241f;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  width: 100%;
+  max-width: 600px;
+}
+
+.keyword {
+  color: #f92672;
+}
+
+.func {
+  color: #66d9ef;
+}
+
+.string {
+  color: #e6db74;
+}
+
+.type {
+  color: #f92672;
+}
+
+.literal {
+  color: #ae81ff;
+}
+
+.package {
+  color: #f8f8f2;
+}
+
+.identifier {
+  color: #e6db74;
+}
+
+.builtin {
+  color: #e78c45;
+}
+
+.infix {
+  color: #66d9ef;
+}
+
+@media only screen and (max-width: 768px) {
+  .codeBlock {
+    font-size: 0.8em;
+  }
+}

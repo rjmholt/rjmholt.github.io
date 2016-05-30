@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/aboutMe.css">
+</head>
+<body id="aboutMe">
+  <header>
+    <h1>About Me</h1>
+    <!--
+    <div id="aboutMeImgContainer">
+      <img src="img/me.png" alt="Image of me" id="aboutMeImg">
+    -->
+    </div>
+  </header>
+  <div id="navMenu"></div>
+  <!--
+    Basis for #leftBuffer:
+    http://stackoverflow.com/questions/6285279/i-need-a-max-margin-css-property-but-it-doesnt-exist-how-could-i-fake-it
+  -->
+  <div id="leftBuffer"></div>
+  <main>
+    <div id="intro">
+      <p>I'm a Software Engineer living in Melbourne</p>
+    </div>
+    <div id="interests">
+      <h2>Interests</h2>
+      <p>My current interests are:</p>
+      <ul>
+        <li>Functional Programming</li>
+        <li>Distributed Systems</li>
+        <li>Programming Languages</li>
+        <li>Operating Systems</li>
+      </ul>
+    </div>
+    <div id="currentProjects">
+      <h2>Current Projects</h2>
+      <div id="currentProjects">
+        <div class="currProj">
+          <h3>Toy Compiler</h3>
+          <p>
+            A compiler for a toy language (called Bean) implemented in
+            OCaml, targeting the Oz virtual machine from the University
+            of Melbourne. Eventually, I'm hoping to build on this project
+            to create a more serious compiler in Haskell, targeting a real
+            world architecture like ARM, MIPS or x86_64.
+          </p>
+        </div>
+        <div class="currProj">
+          <h3>Chat Server</h3>
+          <p>
+            A chat server with rooms with a JSON protocol, implemented in
+            Erlang, following OTC principles. I'm aiming to extend this over
+            time to add TLS support, authentication, peristence and
+            replacing rooms with subscribed groups.
+          </p>
+        </div>
+        <div class="currProj">
+          <h3>MIPS emulator</h3>
+          <p>
+            A simple toy disassembler, and then emulator, for the MIPS
+            architecture, which takes raw MIPS machine code and can both
+            construct a disassembled representation, and emulate its
+            execution.
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js">
+  </script> 
+  <script src="js/nav.js"></script>
+</body>
+</html>

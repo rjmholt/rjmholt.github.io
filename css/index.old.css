@@ -1,0 +1,93 @@
+header {
+  margin-top: 0;
+  text-align: center;
+}
+
+#banner {
+  width: 100%;
+  height: 400px;
+  background-image: url(../img/perfect_mountains.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center-bottom;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: -1;
+  margin-bottom: -30%;
+}
+
+#titlePic {
+  margin: 0 auto 0 auto;
+}
+
+#personalPic {
+  margin: 100px auto 0 auto;
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  padding: 10px;
+  border-radius: 40px;
+  border: 3px solid #fff;
+  box-shadow: rgba(0,0,0,0.3) 0 1px 1px 0;
+  background: url(../img/me.png);
+  background-size: contain;
+}
+
+#personalPic img {
+  width: 100%;
+}
+
+#pageHead {
+  margin: 0 auto;
+  min-height: 100px;
+  text-align: center;
+}
+
+#pageBody {
+  margin: auto 0;
+  width: 70%;
+}
+
+#navMenu {
+  position: static;
+  height: auto;
+  float: left;
+  margin-top: -5%;
+}
+
+#leftBuffer {
+  width: 10%;
+}
+
+main {
+  width: 60%;
+}
+
+@media (max-width: 768px) {
+  #banner {
+    height: 300px;
+  }
+
+  #personalPic {
+    margin-top: 50px;
+  }
+
+  #leftBuffer {
+    width: 0;
+    display: none;
+  }
+
+  #navMenu {
+    text-align: center;
+    width: 80%;
+    padding: 0;
+    margin: 30px auto;
+  }
+
+  main {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
