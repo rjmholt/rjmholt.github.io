@@ -33,6 +33,7 @@ header {
 }
 
 #navMenu {
+  margin-top: 0;
   position: static;
   float: left;
 }

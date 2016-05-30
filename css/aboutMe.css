@@ -1,13 +1,12 @@
-#aboutMeHead h1 {
-  float: left;
-  margin: 0 0 0 15%;
+header h1 {
   display: block;
 }
 
 #aboutMeImgContainer {
   width: 100px;
   float: left;
-  margin-left: 20%;
+  display: block;
+  margin: 1% 0 0 10%;
 }
 
 #aboutMeImgContainer img {
@@ -15,7 +14,7 @@
   max-height: 100%;
   border-radius: 25px;
   border: 3px solid #fff;
-  box-shadow: rgba(0,0,0,0.3) 0 1px 1px 0;
+  box-shadow: rgba(0,0,0,0.5) 0 2px 2px 0;
 }
 
 #pageBody {
@@ -25,4 +24,11 @@
 #mainContainer {
   margin: 0 auto;
   width: 40%;
+}
+
+@media only screen and (max-width: 1024px) {
+  #aboutMeImgContainer {
+    float: none;
+    margin: 2% auto;
+  }
 }
