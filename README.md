@@ -1,4 +1,6 @@
-README
-======
+---
+title: Main
+---
 
-My personal site
+Inaction Credo
+==============
