@@ -1,4 +1,4 @@
-Website
-=======
+README
+======
 
-A very simple personal website.
+My personal site
