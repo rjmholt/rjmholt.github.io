@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Building a small hex parser with Haskell"
+#title:  "Building a small hex parser with Haskell"
 date:   2017-02-20 16:23:40 -0800
 categories: haskell
 ---

@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Inaction Credo — Rob Holt's Site
-email: robert.holt@posmc.com.au
-description: > # this means to ignore newlines until "baseurl:"
-  I'm Rob Holt, a software engineer with an interest in programming languages,
-  distributed systems and functional programming. Welcome to my site!
+title: Inaction Credo — Somewhere to put my laziness
+#email: robert.holt@posmc.com.au
+#description: > # this means to ignore newlines until "baseurl:"
+#  I'm Rob Holt, a software engineer with an interest in programming languages,
+#  distributed systems and functional programming. Welcome to my site!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
